@@ -1,13 +1,7 @@
 
-// PROCCES
-
-// Menejo de los procesos en NodeJS
-
-// Procees ARGV arroja un array
-console.log(process.argv)
-
-
+// Example 1
 // Function for control process
+
 function param(p) {
     let index = process.argv.indexOf(p)
     //console.log(index)
