@@ -92,13 +92,15 @@
 
     Puede ver que la versión v12.18.2 de Node.js está configurada como la versión predeterminada. Puede cambiar la versión predeterminada de Node.js. El siguiente comando establecerá 12.18.2 como la versión predeterminada de Node.js.
 
-        $ nvm use v12.18.3
+        $ nvm use v18.12.1
+
+        $ nvm alias default 18.12.1
 
     Ahora verifique la versión activa actual de node.js
 
         $ node --version
 
-        v12.18.2
+        v18.12.1
 
 <br>
 
