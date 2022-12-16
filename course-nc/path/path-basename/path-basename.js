@@ -1,4 +1,8 @@
 
 var path = require('path')
 
-console.log(path.basename(__filename))
+// Path  without basename
+console.log('Path without basename :', __filename)
+
+// Path with basename
+console.log('Path with basename :', path.basename(__filename))
