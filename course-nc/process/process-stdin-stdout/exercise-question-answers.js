@@ -17,6 +17,7 @@ process.stdin.on('data', function(data){
     if (answers.length < questions.length) {
         question(answers.length)
     } else {
+        process.stdout.write(`Hello your name is: ${answers[0]} ${answers[1]} and your favorite language is : ${answers[2]} \n`)
         process.exit()
     }
 })
