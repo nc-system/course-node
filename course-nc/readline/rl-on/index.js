@@ -1,5 +1,6 @@
 
 const readline = require('readline')
+const util = require('util')
 
 const rl = readline.createInterface(process.stdin, process.stdout)
 
@@ -20,6 +21,8 @@ rl.question('Whats your name : ', (answer) => {
 rl.on('line', (input) => {
 
     if (input.trim() === 'exit') {
+        let message = util.format(`Your name & Comments are: ${people.name} ${peole.comments}`)
+        console.log(message)
         process.exit()
     }
 
