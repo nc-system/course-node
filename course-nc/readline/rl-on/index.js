@@ -21,7 +21,7 @@ rl.question('Whats your name : ', (answer) => {
 rl.on('line', (input) => {
 
     if (input.trim() === 'exit') {
-        let message = util.format(`Your name & Comments are: ${people.name} ${peole.comments}`)
+        let message = util.format(`Your name & Comments are: ${people.name} ${people.comments}`)
         console.log(message)
         process.exit()
     }
