@@ -58,11 +58,11 @@
     Paso 3: instalación de Node.js con NVM
     Ahora instale la versión de node.js que necesita usar para ejecutar la aplicación node.js. El siguiente comando instalará node.js 12.16.2 la versión LTS en su sistema.
 
-        $ nvm install v16.17.1
+        $ nvm install v19.16.1
 
     También puede haber instalado la última versión de Node.js.
 
-        $ nvm install v18.10.0
+        $ nvm install v18.14.1
 
     Repita el comando anterior con las diferentes versiones de node.js para instalar varias versiones de node.js en su sistema.
 
