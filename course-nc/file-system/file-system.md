@@ -1,15 +1,20 @@
 
 ----------------------------------------------------------------------------
-# File system
+# **File system**
 
+[Link Documentacion](https://markdown.es/sintaxis-markdown/)
 
-- [Promise example](#promise)
+<br>
 
-- Callback example
+## TABLE DE CONTENIDO
 
-- Synchronous example
+- **[Promise example](#promise)**
 
-- Promises API
+- **Callback example**
+
+- **Synchronous example**
+
+- **Promises API**
 
     - Class: FileHandle
         - Event: 'close'
@@ -71,7 +76,7 @@
     - fsPromises.constants
     <br><br>
     
-- Callback API
+- **Callback API**
     - fs.access(path[, mode], callback)
     - fs.appendFile(path, data[, options], callback)
     - fs.chmod(path, mode, callback)
@@ -138,7 +143,7 @@
     - fs.writev(fd, buffers[, position], callback)
     <br><br>
 
-- Synchronous API
+- **Synchronous API**
 
     - fs.accessSync(path[, mode])
     - fs.appendFileSync(path, data[, options])
@@ -187,7 +192,8 @@
     - fs.writeSync(fd, string[, position[, encoding]])
     - fs.writevSync(fd, buffers[, position])
     <br><br>
-- Common Objects
+
+- **Common Objects**
 
     - Class: fs.Dir
         - dir.close()
@@ -288,19 +294,20 @@
             - File type constants
             - File mode constants
             <br>
-    - Notes
-        - Ordering of callback and promise-based operations
-        - File paths
-            - String paths
-            - File URL paths
-                - Platform-specific considerations
-                <br>
-            - Buffer paths
-            - Per-drive working directories on Windows
+
+- **Notes**
+    - Ordering of callback and promise-based operations
+    - File paths
+        - String paths
+        - File URL paths
+            - Platform-specific considerations
             <br>
-        - File descriptors
-        - Threadpool usage
-        - File system flags
+        - Buffer paths
+        - Per-drive working directories on Windows
+        <br>
+    - File descriptors
+    - Threadpool usage
+    - File system flags
 
 
 <br>
