@@ -1,0 +1,10 @@
+
+MARKDOWN
+
+Markdown es un lenguaje open source de escritura, originalmente implementado en Perl para convertir texto plano a HTML. 
+Actualmente lo soportan cantidad de lenguajes de programación, incluyendo PHP, Python, Ruby, Java y Common Lisp y se utiliza en muchas webs como GitHub, 
+Reddit o WordPress, entre otras muchas.
+
+Hace algunos años que lo utilizo cuando escribo para web, e incluso para algún escrito que vaya a convertir en pdf, 
+ya que utiliza una sintaxis muy sencilla. Su propósito es ser fácil de leer y escribir. Pero como todo, tiene sus «problemillas». 
+Por ejemplo, realizar un índice. En principio en su sintaxis no se contempla, pero como hay gente muy lista por el mundo, hay soluciones para todo.
